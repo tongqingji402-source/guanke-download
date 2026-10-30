@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#f5f7ff">
+<meta name="description" content="观课是一款专属校园课程表应用，支持课程管理、每日诗词和离线使用。">
 <title>观课 · 专属校园课程表</title>
 <style>
 *{box-sizing:border-box}
@@ -13,13 +15,20 @@ main{max-width:760px;margin:55px auto;padding:20px}
 .logo{font-size:54px}
 h1{font-size:36px;margin:10px 0}
 .hero p{opacity:.9;line-height:1.8}
-.download{display:inline-block;background:white;color:#526ef5;text-decoration:none;font-weight:700;padding:15px 34px;border-radius:14px;margin-top:20px}
+.download{display:inline-block;background:white;color:#526ef5;text-decoration:none;font-weight:700;padding:15px 34px;border-radius:14px;margin-top:20px;transition:transform .2s,box-shadow .2s}
+.download:hover{transform:translateY(-2px);box-shadow:0 8px 20px #20294333}
 section{background:white;margin-top:20px;padding:25px;border-radius:20px;box-shadow:0 5px 20px #26345b0b}
 h2{font-size:20px;margin-top:0}
-.item{padding:12px 0;border-bottom:1px solid #edf0f7;line-height:1.8}
+.item{padding:12px 0;border-bottom:1px solid #edf0f7;line-height:1.8;overflow-wrap:anywhere}
 .item:last-child{border:0}
 .tag{display:inline-block;background:#eef0ff;color:#526ef5;padding:4px 10px;border-radius:20px;font-size:13px}
 footer{text-align:center;color:#8991a6;padding:30px 0;font-size:13px}
+@media(max-width:480px){
+main{margin:20px auto;padding:14px}
+.hero{padding:38px 18px}
+h1{font-size:30px}
+section{padding:21px}
+}
 </style>
 </head>
 <body>
@@ -29,7 +38,7 @@ footer{text-align:center;color:#8991a6;padding:30px 0;font-size:13px}
 <h1>观课</h1>
 <p>专属校园课程表<br>让校园生活更有条理</p>
 <span class="tag">Android 正式版 · v1.0</span><br>
-<a class="download" href="https://github.com/tongqingji402-source/guanke-download/releases/download/v1.0/app-release.apk">⬇ 下载 Android APK</a>
+<a class="download" href="https://github.com/tongqingji402-source/guanke-download/releases/download/v1.0/guanke-v1.0.apk" target="_blank" rel="noopener">⬇ 下载 Android APK</a>
 <p>下载后打开 APK，按照手机提示完成安装</p>
 </div>
 
@@ -53,7 +62,7 @@ footer{text-align:center;color:#8991a6;padding:30px 0;font-size:13px}
 <div class="item">当前版本：<b>1.0</b></div>
 <div class="item">应用名称：观课</div>
 <div class="item">支持平台：Android 7.0 及以上</div>
-<div class="item">下载文件：app-release.apk</div>
+<div class="item">下载文件：guanke-v1.0.apk</div>
 </section>
 
 <footer>观课 · 专属校园课程表<br>让每一天的校园生活更有条理</footer>
